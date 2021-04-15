@@ -7,7 +7,7 @@ import vid from "./SnowyTrees.mp4";
 function App() {
   return (
     <div className="App">
-      <ReactPlayer url={"https://youtu.be/WjoplqS1u18"} volume={false} />
+      <ReactPlayer url={"https://youtu.be/WjoplqS1u18"} volume={0} />
       <video
         src={vid}
         autoPlay
